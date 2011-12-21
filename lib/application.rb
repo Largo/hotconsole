@@ -21,6 +21,12 @@ class Terminal
         body, body * {
           font-family: Monaco;
           white-space: pre-wrap; /* in normal mode, WebKit sometimes adds nbsp when pressing space */
+          background-color: #042029;
+          color: #268BC5;
+        }
+
+        #command_line {
+           outline: none;
         }
       --></style>
     </head>
